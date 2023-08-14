@@ -1,0 +1,64 @@
+*,
+html {
+  padding: 0;
+  margin: 0;
+  font-family: "JetBrains Mono";
+  box-sizing: border-box;
+}
+
+#editor {
+  padding: 50px 40px;
+  width: fit-content;
+  height: fit-content;
+  margin: auto;
+  background: linear-gradient(135deg, #3498db, #e74c3c); /* Gradien kombinasi antara biru dan merah */
+}
+
+.nyateto {
+  padding: 110px 10px;
+  width: 720px;
+  height: 1280px;
+  margin: auto;
+  background-image: url(Creenote.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  opacity: 0.9;
+  box-shadow: 0px 20px 700px rgba(0, 0, 0, 0.5), 10px 0px 20px rgba(0, 0, 0, 0.1), -10px 0px 20px rgba(0, 0, 0, 0.1); /* Bayangan dengan arah dan tingkat kegelapan yang berbeda */
+}
+
+.nyateto-space {
+  width: auto;
+  max-width: 700px;
+  height: 1180px;
+  max-height: 1180px;
+  /* border: 1px solid #ccc; */
+  padding: 10px;
+  color: gold;
+  font-size: 18pt;
+}
+
+.button {
+  width: fit-content;
+  margin: auto;
+}
+
+button {
+  margin: 20px 0;
+  width: fit-content;
+  padding: 7px;
+  border-radius: 10px;
+}
+#convertButton {
+  margin: 20px 0;
+  width: fit-content;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+p {
+  margin: 10px;
+  color: #e74c3c;
+  font-size: 20px;
+  text-align: center;
+}
