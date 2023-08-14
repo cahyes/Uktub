@@ -10,14 +10,14 @@ html {
   padding: 50px 40px;
   width: fit-content;
   height: fit-content;
-  margin-left: -20px;
+  margin: auto;
   background: linear-gradient(135deg, #3498db, #e74c3c); /* Gradien kombinasi antara biru dan merah */
 }
 
 .nyateto {
   padding: 110px 10px;
-  width: 798px;
-  height: 1419px;
+  width: 720px;
+  height: 1280px;
   margin: auto;
   background-image: url(Creenote.png);
   background-repeat: no-repeat;
@@ -33,28 +33,30 @@ html {
   height: 1180px;
   max-height: 1180px;
   /* border: 1px solid #ccc; */
-  padding: 10px;
+  padding: 20px;
   color: gold;
   font-size: 18pt;
+  line-height: 2.5rem;
 }
 
 .button {
+  font-size: 32pt;
   width: fit-content;
   margin: auto;
 }
 
 button {
-  margin: 20px 0;
+  margin: 20px 20px;
   width: fit-content;
-  padding: 15px 40px;
+  padding: 30px 20px;
   border-radius: 10px;
 }
 #convertButton {
   margin: 20px 0;
   width: fit-content;
-  padding: 15px 40px;
+  background-color: deepskyblue;
   border-radius: 10px;
-  background-color: cornflowerblue;
+  padding: 30px 40px;
 }
 
 p {
